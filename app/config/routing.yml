@@ -1,0 +1,4 @@
+esi_salutations:
+    resource: "@EsiSalutationsBundle/Resources/config/routing.yml"
+    prefix:   /
+

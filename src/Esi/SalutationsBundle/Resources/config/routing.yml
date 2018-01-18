@@ -1,0 +1,11 @@
+Esi_home:
+    path: /
+    defaults: { _controller: EsiSalutationsBundle:BonjourSauceEsi:index }
+
+Esi_bonjour:
+    path: /bonjour/
+    defaults: { _controller: EsiSalutationsBundle:BonjourSauceEsi:bonjour }
+
+Esi_bonjourNominatif:
+    path: /bonjour/{name}
+    defaults: { _controller: EsiSalutationsBundle:BonjourSauceEsi:bonjourNominatif }

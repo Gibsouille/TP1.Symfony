@@ -9,9 +9,9 @@ UPGRADE FROM 2.1 to 2.2
 
  * The ``_internal`` route is not used any more. It should then be removed
    from both your routing and security configurations. A ``fragments`` key has
-   been added to the framework configuration and must be specified when ESI or
+   been added to the framework configuration and must be specified when Esi or
    Hinclude are in use. No security configuration is required for this path as
-   by default ESI access is only permitted for trusted hosts and Hinclude
+   by default Esi access is only permitted for trusted hosts and Hinclude
    access uses an URL signing mechanism.
 
    ```
